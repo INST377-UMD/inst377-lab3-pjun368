@@ -1,0 +1,73 @@
+/* General Body Styling */
+body {
+  font-family: "Trebuchet MS", sans-serif; /* custom font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header + Footer */
+.page-header-footer {
+  background-color: #333;
+  color: #ffcc00; /* different color text */
+  text-align: center;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none; /* remove bullets */
+  display: flex;
+  justify-content: center;
+  background: #444;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: #197538;
+  border-radius: 5px;
+}
+
+/* Content Layout */
+.content {
+  display: flex; /* keeps sidebar + main on same line */
+  margin: 20px;
+}
+
+/* Main Content */
+.main-content {
+  width: 70%; /* percentage width */
+  background: #992323;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 30%; /* percentage width */
+  background: #440cac; /* different color */
+  padding: 20px;
+  margin: 10px;
+  transition: background 0.3s ease;
+}
+.sidebar:hover {
+  background: #c9c9c9; /* hover color */
+}
+
+/* Form Styling */
+input[type="text"] {
+  width: 150px;
+  transition: width 0.3s ease;
+}
+input[type="text"]:focus {
+  width: 250px; /* expand on focus */
+}
